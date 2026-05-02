@@ -1,0 +1,60 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+.eggs/
+*.so
+.mypy_cache/
+.pytest_cache/
+*.log
+wallets/
+dataset/
+checkpoints/
+models/
+wandb/
+sft_lora_qwen3/
+local_dataset/
+
+# Secrets
+.env
+.env.*
+.env.local
+*.key
+*.pem
+*cookies*
+
+# Runtime cache
+state/api_cache/
+state/prompt_cache/
+knowledge/
+results/
+
+# Held-out evalscope reports — kept on disk for citation, not for tracking
+benchmark_results/
+
+# Next.js incremental build artifacts
+frontend/tsconfig.tsbuildinfo
+frontend/.next/
+state/
+frontend/.next/
+.openclaw/
+.trash/
+*.bak
+*.bak.*
+node_modules/
+memory/
+HEARTBEAT.md
+SESSION_MEMORY.md
+REWRITE_PLAN.md
+
+# Tweet drafts (local only)
+.tweet-drafts.md
+.tweet-drafts*.md
+reports/2026-04-*-tweet-drafts.md
+
+local_dev/
